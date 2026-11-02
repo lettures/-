@@ -1,0 +1,18 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+A = {isa = PBXProject; buildConfigurationList = B; compatibilityVersion = "Xcode 14.0"; mainGroup = C; productRefGroup = D; targets = (E); };
+B = {isa = XCConfigurationList; buildConfigurations = (F); defaultConfigurationName = Release; };
+F = {isa = XCBuildConfiguration; name = Release; buildSettings = {}; };
+C = {isa = PBXGroup; children = (G,M,D); sourceTree = "<group>"; };
+D = {isa = PBXGroup; children = (H); name = Products; sourceTree = "<group>"; };
+G = {isa = PBXFileReference; path = Sources/DiskMap.swift; sourceTree = "<group>"; lastKnownFileType = sourcecode.swift; };
+H = {isa = PBXFileReference; path = "磁盘地图.app"; sourceTree = BUILT_PRODUCTS_DIR; explicitFileType = wrapper.application; };
+E = {isa = PBXNativeTarget; name = DiskMap; productName = DiskMap; productReference = H; productType = "com.apple.product-type.application"; buildConfigurationList = I; buildPhases = (J,O); buildRules = (); dependencies = (); };
+I = {isa = XCConfigurationList; buildConfigurations = (K); defaultConfigurationName = Release; };
+K = {isa = XCBuildConfiguration; name = Release; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; PRODUCT_NAME = "磁盘地图"; PRODUCT_BUNDLE_IDENTIFIER = "local.diskmap.app"; MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Resources/Info.plist; INFOPLIST_KEY_CFBundleDisplayName = "磁盘地图"; INFOPLIST_KEY_CFBundleName = "磁盘地图"; INFOPLIST_KEY_CFBundleIconFile = AppIcon;  INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities"; MARKETING_VERSION = 0.6.0; CURRENT_PROJECT_VERSION = 10; CODE_SIGN_IDENTITY = "-"; CODE_SIGN_STYLE = Manual; ENABLE_APP_SANDBOX = NO; COMBINE_HIDPI_IMAGES = YES; }; };
+J = {isa = PBXSourcesBuildPhase; files = (L); };
+L = {isa = PBXBuildFile; fileRef = G; };
+M = {isa = PBXFileReference; path = Resources/DiskMapIcon-v2.icns; sourceTree = "<group>"; lastKnownFileType = image.icns; };
+N = {isa = PBXBuildFile; fileRef = M; };
+O = {isa = PBXResourcesBuildPhase; files = (N); };
+}; rootObject = A; }
